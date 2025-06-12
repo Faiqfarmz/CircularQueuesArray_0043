@@ -55,6 +55,16 @@ public:
             FRONT = -1;
             REAR = -1;
         }
+        else {
+            // jika elemen yang di hapus berad di posisi terakhir array,
+            if(FRONT == max - 1)
+                FRONT = 0;
+            else 
+                FRONT = FRONT + 1;
+        }
+
+
+
     }
     
     
